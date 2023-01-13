@@ -2,7 +2,7 @@ import React from "react";
 import { MdLocationOn } from "react-icons/md";
 
 const Card = (props) => {
-    console.log(props.item);
+    // console.log(props.item); // we can check what data is coming through props
   return (
     <>
       <div className="card">
@@ -22,6 +22,7 @@ const Card = (props) => {
           </p>
         </div>
       </div>
+      <hr />
     </>
   );
 };

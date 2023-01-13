@@ -52,7 +52,7 @@ nav h3 {
 }
 
 .card-content-container {
-    max-width: 300px;
+    max-width: 400px;
 }
 .card-location-div {
     display: flex;
@@ -95,6 +95,6 @@ nav h3 {
 
 @media screen and (max-width:300px) {
     .App {
-        max-width: 300px;
+        max-width: 400px;
     }
 }
