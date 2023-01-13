@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app-container {
+    border-radius: 5px;
+    border: 1px solid red;
+    box-shadow: 2px 2px 20px #918E9B;
+}
+
+nav {
+    background-color: #ed2d2d;
+    padding: 20px;
+    color: #F5F5F5;
+    gap: 3px;
+    display: flex;
+    justify-content: center;align-items: center;
+}
+nav h3 {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.card-container {
+    
+}
+
+.card {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.card-img {
+    height: 200px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.card-content-container {
+    max-width: 400px;
+}
+.card-location-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-location-div span {
+    display: flex;
+    align-items: center;
+}
+.card-location-div span:nth-child(1) {
+    color: #ed2d2d;
+}
+
+.location {
+    color: #2B283A;
+    text-transform: uppercase;
+}
+
+.card-location-div a {
+    color: #918E9B;
+    font-size: 12px;
+}
+
+.card-title {
+    margin-top: 10px;
+}
+
+.travel-date {
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+.card-disc {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #2B283A;
+}
