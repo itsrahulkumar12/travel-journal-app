@@ -92,3 +92,9 @@ nav h3 {
     font-size: 13px;
     color: #2B283A;
 }
+
+@media screen and (max-width:300px) {
+    .App {
+        max-width: 300px;
+    }
+}
