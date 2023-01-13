@@ -52,7 +52,7 @@ nav h3 {
 }
 
 .card-content-container {
-    max-width: 450px;
+    max-width: 300px;
 }
 .card-location-div {
     display: flex;
@@ -69,8 +69,8 @@ nav h3 {
 
 .location {
     color: #2B283A;
-    font-weight: 400;
-    text-transform: uppercase;
+    
+    /* text-transform: uppercase; */
 }
 
 .card-location-div a {
